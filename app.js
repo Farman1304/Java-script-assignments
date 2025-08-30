@@ -99,5 +99,49 @@ var num1 = 6;
 var num2 = 11;
 
 document.write ('The sum of ' + num1 +' and ' + num2 +' is ' + ( num1 + num2) +'<br>');
+document.write ('The multiplication of ' + num1 +' into ' + num2 +' is ' + ( num1 * num2) +'<br>');
+document.write ('The division of ' + num1 +' on ' + num2+' is ' + ( num1 / num2) +'<br>');
+    document.write ('The substraction of ' + num1 +' from ' + num2 +' is ' + ( num1 - num2) +'<br>');
+document.write ('The reminder of ' + num1 +' on ' + num2 +' is ' + ( num1 % num2) +'<br>');
 
 
+var newNum;
+
+document.write(newNum + '<br>');
+
+newNum = 5;
+
+document.write('Initial value is ' + newNum + '<br>');
+
+newNum++
+document.write('value after increment is  ' + newNum + '<br>');
+
+newNum = newNum + 7;
+
+document.write ('Value after addition is ' + newNum + '<br>' );
+
+document.write('Value after decreamen id ' + --newNum + '<br>');
+
+document.write('The reminder of ' + newNum +' is ' + (newNum % 3) +'<br>')
+
+var ticketCost = 600;
+
+document.write('Total cost to buy 5 tickets is ' + (5*ticketCost) + ' PKR' + '<br>');
+
+document.write( 'Table of 4' + '<br>');
+
+var tablOfFour = 4;
+
+document.write (
+    '<br>' + tablOfFour + ' x ' + '1' + " " + ' = ' + (1*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '2' + " " + ' = ' + (2*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '3' + " " + ' = ' + (3*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '4' + " " + ' = ' + (4*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '5' + " " + ' = ' + (5*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '6' + " " + ' = ' + (6*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '7' + " " + ' = ' + (7*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '8' + " " + ' = ' + (8*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '9' + " " + ' = ' + (9*tablOfFour) + '<br>' 
+     + tablOfFour + ' x ' + '10' + " " + ' = ' + (10*tablOfFour) + '<br>' 
+
+);
