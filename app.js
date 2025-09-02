@@ -133,7 +133,8 @@ document.write( 'Table of 4' + '<br>');
 var tablOfFour = 4;
 
 document.write (
-    '<br>' + tablOfFour + ' x ' + '1' + " " + ' = ' + (1*tablOfFour) + '<br>' 
+    '<br>' 
+     + tablOfFour + ' x ' + '1' + " " + ' = ' + (1*tablOfFour) + '<br>' 
      + tablOfFour + ' x ' + '2' + " " + ' = ' + (2*tablOfFour) + '<br>' 
      + tablOfFour + ' x ' + '3' + " " + ' = ' + (3*tablOfFour) + '<br>' 
      + tablOfFour + ' x ' + '4' + " " + ' = ' + (4*tablOfFour) + '<br>' 
@@ -145,3 +146,63 @@ document.write (
      + tablOfFour + ' x ' + '10' + " " + ' = ' + (10*tablOfFour) + '<br>' 
 
 );
+
+var celcuis = 25;
+var farenhiet = 77;
+
+document.write ('Temperature in celcius is ' + (farenhiet - 32 * 9/5) +'°' + '<br>' + ' Tempreture in Farenhiet is ' + (celcuis * 9/5 + 32) + '<br>' ) 
+    
+
+
+var itmeOne = 650;
+var itemTwo = 100;
+var orderItem1 = 3;
+var orderItem2 = 7;
+var shipingCharges = 100;
+
+document.write('Total cost of your orders is ' + ((itmeOne * orderItem1) + (itemTwo * orderItem2) + shipingCharges) + '<br>')
+
+var totalMarks = 980;
+var marksObtain = 804;
+
+document.write ('Percentage is ' + (marksObtain/totalMarks)* 100 +'<br>');
+
+var UsDollar = 104.80;
+var SaudiRiyal = 28;
+
+document.write ('Total Currency in PKR ' + ((UsDollar * 10) + (SaudiRiyal * 25)) +'<br>' + '<br>')
+
+
+var yearBornIn = 1992;
+var currentYear = 2016;
+
+
+document.write('Current Year :' +  currentYear +'<br>' + 'Birth Year :' +  yearBornIn + '<br>' + 'Your Age is ' + (currentYear -  yearBornIn) + '<br>' )
+
+var favFood = 'shwarma';
+var currentAge = 10 ;
+var estimatedAge = 65;
+var perDayconsumption = 3;
+var noOfdays = (65 -10) *365;
+console.log(noOfdays)
+
+document.write('you will need ' + (noOfdays * perDayconsumption) + 'to have your last shwarma untill the ripe old age of ' + estimatedAge + '<br>')
+
+
+
+var a = 10;
+    
+document.write ('The value is a is ' + a +'<br>' + 'The value of ++a is ' + ++a   + '<br>' + 'The value of ' + a++ + 'is ' + a  + '<br>' + 'the value of --a is ' + --a + '<br>' + 'now the value of a is ' + a +'<br>'
+    + 'The value of a-- is ' + a-- +'<br>' +  'The value of a is ' + a + '<br>'
+);
+
+
+var user = 'Muhammad Maaz';
+document.write('Greetings Mr. ' + user + '<br>' + '<br>');
+
+
+var mTable = prompt ('enter number to print table ' ,5);
+
+for(var i = 1; i <= 10 ; i++) {
+    document.write(mTable + 'x' + i + '=' + (mTable * i) + '<br>')
+}
