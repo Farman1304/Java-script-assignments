@@ -95,114 +95,205 @@
 
 // chapter # 5
 
-var num1 = 6;
-var num2 = 11;
+// var num1 = 6;
+// var num2 = 11;
 
-document.write ('The sum of ' + num1 +' and ' + num2 +' is ' + ( num1 + num2) +'<br>');
-document.write ('The multiplication of ' + num1 +' into ' + num2 +' is ' + ( num1 * num2) +'<br>');
-document.write ('The division of ' + num1 +' on ' + num2+' is ' + ( num1 / num2) +'<br>');
-    document.write ('The substraction of ' + num1 +' from ' + num2 +' is ' + ( num1 - num2) +'<br>');
-document.write ('The reminder of ' + num1 +' on ' + num2 +' is ' + ( num1 % num2) +'<br>');
+// document.write ('The sum of ' + num1 +' and ' + num2 +' is ' + ( num1 + num2) +'<br>');
+// document.write ('The multiplication of ' + num1 +' into ' + num2 +' is ' + ( num1 * num2) +'<br>');
+// document.write ('The division of ' + num1 +' on ' + num2+' is ' + ( num1 / num2) +'<br>');
+//     document.write ('The substraction of ' + num1 +' from ' + num2 +' is ' + ( num1 - num2) +'<br>');
+// document.write ('The reminder of ' + num1 +' on ' + num2 +' is ' + ( num1 % num2) +'<br>');
 
 
-var newNum;
+// var newNum;
 
-document.write(newNum + '<br>');
+// document.write(newNum + '<br>');
 
-newNum = 5;
+// newNum = 5;
 
-document.write('Initial value is ' + newNum + '<br>');
+// document.write('Initial value is ' + newNum + '<br>');
 
-newNum++
-document.write('value after increment is  ' + newNum + '<br>');
+// newNum++
+// document.write('value after increment is  ' + newNum + '<br>');
 
-newNum = newNum + 7;
+// newNum = newNum + 7;
 
-document.write ('Value after addition is ' + newNum + '<br>' );
+// document.write ('Value after addition is ' + newNum + '<br>' );
 
-document.write('Value after decreamen id ' + --newNum + '<br>');
+// document.write('Value after decreamen id ' + --newNum + '<br>');
 
-document.write('The reminder of ' + newNum +' is ' + (newNum % 3) +'<br>')
+// document.write('The reminder of ' + newNum +' is ' + (newNum % 3) +'<br>')
 
-var ticketCost = 600;
+// var ticketCost = 600;
 
-document.write('Total cost to buy 5 tickets is ' + (5*ticketCost) + ' PKR' + '<br>');
+// document.write('Total cost to buy 5 tickets is ' + (5*ticketCost) + ' PKR' + '<br>');
 
-document.write( 'Table of 4' + '<br>');
+// document.write( 'Table of 4' + '<br>');
 
-var tablOfFour = 4;
+// var tablOfFour = 4;
 
-document.write (
-    '<br>' 
-     + tablOfFour + ' x ' + '1' + " " + ' = ' + (1*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '2' + " " + ' = ' + (2*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '3' + " " + ' = ' + (3*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '4' + " " + ' = ' + (4*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '5' + " " + ' = ' + (5*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '6' + " " + ' = ' + (6*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '7' + " " + ' = ' + (7*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '8' + " " + ' = ' + (8*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '9' + " " + ' = ' + (9*tablOfFour) + '<br>' 
-     + tablOfFour + ' x ' + '10' + " " + ' = ' + (10*tablOfFour) + '<br>' 
+// document.write (
+//     '<br>' 
+//      + tablOfFour + ' x ' + '1' + " " + ' = ' + (1*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '2' + " " + ' = ' + (2*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '3' + " " + ' = ' + (3*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '4' + " " + ' = ' + (4*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '5' + " " + ' = ' + (5*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '6' + " " + ' = ' + (6*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '7' + " " + ' = ' + (7*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '8' + " " + ' = ' + (8*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '9' + " " + ' = ' + (9*tablOfFour) + '<br>' 
+//      + tablOfFour + ' x ' + '10' + " " + ' = ' + (10*tablOfFour) + '<br>' 
 
-);
+// );
 
-var celcuis = 25;
-var farenhiet = 77;
+// var celcuis = 25;
+// var farenhiet = 77;
 
-document.write ('Temperature in celcius is ' + (farenhiet - 32 * 9/5) +'°' + '<br>' + ' Tempreture in Farenhiet is ' + (celcuis * 9/5 + 32) + '<br>' ) 
+// document.write ('Temperature in celcius is ' + (farenhiet - 32 * 9/5) +'°' + '<br>' + ' Tempreture in Farenhiet is ' + (celcuis * 9/5 + 32) + '<br>' ) 
     
 
 
-var itmeOne = 650;
-var itemTwo = 100;
-var orderItem1 = 3;
-var orderItem2 = 7;
-var shipingCharges = 100;
+// var itmeOne = 650;
+// var itemTwo = 100;
+// var orderItem1 = 3;
+// var orderItem2 = 7;
+// var shipingCharges = 100;
 
-document.write('Total cost of your orders is ' + ((itmeOne * orderItem1) + (itemTwo * orderItem2) + shipingCharges) + '<br>')
+// document.write('Total cost of your orders is ' + ((itmeOne * orderItem1) + (itemTwo * orderItem2) + shipingCharges) + '<br>')
 
-var totalMarks = 980;
-var marksObtain = 804;
+// var totalMarks = 980;
+// var marksObtain = 804;
 
-document.write ('Percentage is ' + (marksObtain/totalMarks)* 100 +'<br>');
+// document.write ('Percentage is ' + (marksObtain/totalMarks)* 100 +'<br>');
 
-var UsDollar = 104.80;
-var SaudiRiyal = 28;
+// var UsDollar = 104.80;
+// var SaudiRiyal = 28;
 
-document.write ('Total Currency in PKR ' + ((UsDollar * 10) + (SaudiRiyal * 25)) +'<br>' + '<br>')
-
-
-var yearBornIn = 1992;
-var currentYear = 2016;
+// document.write ('Total Currency in PKR ' + ((UsDollar * 10) + (SaudiRiyal * 25)) +'<br>' + '<br>')
 
 
-document.write('Current Year :' +  currentYear +'<br>' + 'Birth Year :' +  yearBornIn + '<br>' + 'Your Age is ' + (currentYear -  yearBornIn) + '<br>' )
-
-var favFood = 'shwarma';
-var currentAge = 10 ;
-var estimatedAge = 65;
-var perDayconsumption = 3;
-var noOfdays = (65 -10) *365;
-console.log(noOfdays)
-
-document.write('you will need ' + (noOfdays * perDayconsumption) + 'to have your last shwarma untill the ripe old age of ' + estimatedAge + '<br>')
+// var yearBornIn = 1992;
+// var currentYear = 2016;
 
 
+// document.write('Current Year :' +  currentYear +'<br>' + 'Birth Year :' +  yearBornIn + '<br>' + 'Your Age is ' + (currentYear -  yearBornIn) + '<br>' )
 
-var a = 10;
+// var favFood = 'shwarma';
+// var currentAge = 10 ;
+// var estimatedAge = 65;
+// var perDayconsumption = 3;
+// var noOfdays = (65 -10) *365;
+// console.log(noOfdays)
+
+// document.write('you will need ' + (noOfdays * perDayconsumption) + 'to have your last shwarma untill the ripe old age of ' + estimatedAge + '<br>')
+
+
+
+// var a = 10;
     
-document.write ('The value is a is ' + a +'<br>' + 'The value of ++a is ' + ++a   + '<br>' + 'The value of ' + a++ + 'is ' + a  + '<br>' + 'the value of --a is ' + --a + '<br>' + 'now the value of a is ' + a +'<br>'
-    + 'The value of a-- is ' + a-- +'<br>' +  'The value of a is ' + a + '<br>'
-);
+// document.write ('The value is a is ' + a +'<br>' + 'The value of ++a is ' + ++a   + '<br>' + 'The value of ' + a++ + 'is ' + a  + '<br>' + 'the value of --a is ' + --a + '<br>' + 'now the value of a is ' + a +'<br>'
+//     + 'The value of a-- is ' + a-- +'<br>' +  'The value of a is ' + a + '<br>'
+// );
 
 
-var user = 'Muhammad Maaz';
-document.write('Greetings Mr. ' + user + '<br>' + '<br>');
+// var user = 'Muhammad Maaz';
+// document.write('Greetings Mr. ' + user + '<br>' + '<br>');
 
 
-var mTable = prompt ('enter number to print table ' ,5);
+// var mTable = prompt ('enter number to print table ' ,5);
 
-for(var i = 1; i <= 10 ; i++) {
-    document.write(mTable + 'x' + i + '=' + (mTable * i) + '<br>')
+// for(var i = 1; i <= 10 ; i++) {
+//     document.write(mTable + 'x' + i + '=' + (mTable * i) + '<br>')
+// }
+
+
+
+
+
+
+
+
+var keyTocheck = prompt ('enter sigle alphabet').charCodeAt();
+
+if(keyTocheck >= 65 && keyTocheck <= 90) {
+    console.log('upper case')
+} else if (keyTocheck >= 97 && keyTocheck <= 122) {
+    console.log('its an lower case')
+} else {
+    console.log ('its ' + keyTocheck.value);
 }
+
+
+ var numBerOne = parseInt(prompt ('enter number'));
+ var numBerTwo = parseInt(prompt ('enter number'));
+
+
+ if(numBerOne > numBerTwo) {
+    console.log(numBerOne + ' is greater than ' + numBerTwo);
+     
+ }else if (numBerOne >! numBerTwo){
+    console.log(numBerOne + ' is not greather than ' + numBerTwo + ' ' + '<br>');
+    
+ }
+
+
+ var numberStatus = +prompt ('enter to check status');
+
+ if(numberStatus === 0) {
+    console.log('its zero')
+ } else if (numberStatus < 0) {
+    console.log('its negative number')
+ } else if (numberStatus > 0) {
+    console.log('its positive number')
+ }
+
+
+var vowels = ['a','e','i','o','u'];
+var toCheckVowels = prompt('enter alphabets').toLowerCase ().trim ();
+
+var ifFound= false;
+
+for(var i = 0 ; i <= vowels.length ; i++) {
+    if(vowels[i] === toCheckVowels) {
+        console.log('its vowels')
+        ifFound = true;
+        break;
+    }
+}
+
+if(!ifFound) {
+    console.log('its not vowels')
+}
+
+
+
+
+
+
+var userPass = 'hahah1234';
+
+
+var checkPass = prompt ('enter passowrd');
+if(userPass === checkPass) {
+    var recheckPass = prompt ('confirm pass')
+
+
+    if(recheckPass === checkPass) {
+        console.log('Password matched')
+    } else {
+        console.log('confirmation  isnt matched') 
+    }
+} else{
+    console.log('Incorect pass')
+
+}
+
+
+
+var studentname = [];
+studentname.push('ali')
+studentname.push('rehan');
+
+console.log(studentname)
+
