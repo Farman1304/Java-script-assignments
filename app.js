@@ -214,86 +214,117 @@
 
 
 
-var keyTocheck = prompt ('enter sigle alphabet').charCodeAt();
+// var keyTocheck = prompt ('enter sigle alphabet').charCodeAt();
 
-if(keyTocheck >= 65 && keyTocheck <= 90) {
-    console.log('upper case')
-} else if (keyTocheck >= 97 && keyTocheck <= 122) {
-    console.log('its an lower case')
-} else {
-    console.log ('its ' + keyTocheck.value);
-}
-
-
- var numBerOne = parseInt(prompt ('enter number'));
- var numBerTwo = parseInt(prompt ('enter number'));
+// if(keyTocheck >= 65 && keyTocheck <= 90) {
+//     console.log('upper case')
+// } else if (keyTocheck >= 97 && keyTocheck <= 122) {
+//     console.log('its an lower case')
+// } else {
+//     console.log ('its ' + keyTocheck.value);
+// }
 
 
- if(numBerOne > numBerTwo) {
-    console.log(numBerOne + ' is greater than ' + numBerTwo);
+//  var numBerOne = parseInt(prompt ('enter number'));
+//  var numBerTwo = parseInt(prompt ('enter number'));
+
+
+//  if(numBerOne > numBerTwo) {
+//     console.log(numBerOne + ' is greater than ' + numBerTwo);
      
- }else if (numBerOne >! numBerTwo){
-    console.log(numBerOne + ' is not greather than ' + numBerTwo + ' ' + '<br>');
+//  }else if (numBerOne >! numBerTwo){
+//     console.log(numBerOne + ' is not greather than ' + numBerTwo + ' ' + '<br>');
     
- }
+//  }
 
 
- var numberStatus = +prompt ('enter to check status');
+//  var numberStatus = +prompt ('enter to check status');
 
- if(numberStatus === 0) {
-    console.log('its zero')
- } else if (numberStatus < 0) {
-    console.log('its negative number')
- } else if (numberStatus > 0) {
-    console.log('its positive number')
- }
+//  if(numberStatus === 0) {
+//     console.log('its zero')
+//  } else if (numberStatus < 0) {
+//     console.log('its negative number')
+//  } else if (numberStatus > 0) {
+//     console.log('its positive number')
+//  }
 
 
-var vowels = ['a','e','i','o','u'];
-var toCheckVowels = prompt('enter alphabets').toLowerCase ().trim ();
+// var vowels = ['a','e','i','o','u'];
+// var toCheckVowels = prompt('enter alphabets').toLowerCase ().trim ();
 
-var ifFound= false;
+// var ifFound= false;
 
-for(var i = 0 ; i <= vowels.length ; i++) {
-    if(vowels[i] === toCheckVowels) {
-        console.log('its vowels')
-        ifFound = true;
-        break;
-    }
+// for(var i = 0 ; i <= vowels.length ; i++) {
+//     if(vowels[i] === toCheckVowels) {
+//         console.log('its vowels')
+//         ifFound = true;
+//         break;
+//     }
+// }
+
+// if(!ifFound) {
+//     console.log('its not vowels')
+// }
+
+
+
+
+
+
+// var userPass = 'hahah1234';
+
+
+// var checkPass = prompt ('enter passowrd');
+// if(userPass === checkPass) {
+//     var recheckPass = prompt ('confirm pass')
+
+
+//     if(recheckPass === checkPass) {
+//         console.log('Password matched')
+//     } else {
+//         console.log('confirmation  isnt matched') 
+//     }
+// } else{
+//     console.log('Incorect pass')
+
+// }
+
+
+
+// var studentname = [];
+// studentname.push('ali')
+// studentname.push('rehan');
+
+// console.log(studentname)
+
+
+
+//  chapter 10
+
+var multiArry = [[],[],[],];
+
+var showMultiArry = [
+
+    [0,1,2,3],
+    [1,0,1,2]
+    [2,1,0,1]
+]
+
+console.log(multiArry)
+console.log(showMultiArry);
+
+for (var i =1;i<11; i++) {
+    console.log(i);
 }
 
-if(!ifFound) {
-    console.log('its not vowels')
+var tableToprint = +prompt('enter no of table')
+
+var talbleLenth  = parseInt(prompt ('enter table lenth'));
+
+
+for(var i = 1 ; i <= talbleLenth ; i++) {
+    console.log(tableToprint + ' x ' + talbleLenth + ' = ' + (i*tableToprint));
+
+    
+    
 }
-
-
-
-
-
-
-var userPass = 'hahah1234';
-
-
-var checkPass = prompt ('enter passowrd');
-if(userPass === checkPass) {
-    var recheckPass = prompt ('confirm pass')
-
-
-    if(recheckPass === checkPass) {
-        console.log('Password matched')
-    } else {
-        console.log('confirmation  isnt matched') 
-    }
-} else{
-    console.log('Incorect pass')
-
-}
-
-
-
-var studentname = [];
-studentname.push('ali')
-studentname.push('rehan');
-
-console.log(studentname)
-
